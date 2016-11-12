@@ -1,0 +1,112 @@
+/**
+ * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * CONCEPT AND CODE COPIED FROM https://passwork.me/oops
+ * For educational purpose only
+ *
+ * @author Iliya Garakh
+ *
+ * I'm not the code author, and not an affiliate
+ *
+ * You can learn and share this code with this notice and disclaimer intact
+ * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ */
+
+
+@font-face {
+    font-family: 'museo_sans_cyrl300';
+    src: url('../fonts/museosanscyrl_300.eot');
+    src: url('../fonts/museosanscyrl_300.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/museosanscyrl_300.woff') format('woff'),
+        url('../fonts/museosanscyrl_300.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	font-family: 'museo_sans_cyrl300',sans-serif;
+    line-height: 1;
+    font-size: 16px;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    background-color: #f8f8f8;
+}
+
+.site-header{
+    padding: 20px;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+
+.page-title{
+    margin: 0 auto;
+    width: 960px;
+}
+
+.content_text {
+    width: 960px;
+    word-wrap: break-word;
+    overflow: hidden;
+    margin: auto;
+}
+
+.content_text p{
+    font-size: 13px;
+    color: #777777;
+    line-height: 18px;
+    text-align: justify;
+    width:1700px;
+}
+
+.content_text p span{
+    font-size: 19px;
+    font-weight: bold;
+    color: #FC797A;
+    line-height: 17px;
+    padding: 20px;
+}
+
+.placeholder {
+    height: 120px;
+    width: auto;
+}
+
+.site-footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    border-top: 1px solid #e1e1e1;
+    font-size: 12px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.site-footer p{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.site-footer a{
+    color: #4485b3;
+    text-decoration: none;
+}
