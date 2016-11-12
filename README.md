@@ -1,8 +1,8 @@
 # 404-iliya
 A wonderful 404 page designed by Iliya Garakh, is copied here for educational purpose only
 
-> CONCEPT AND CODE COPIED FROM https://passwork.me/oops
-> For educational purpose only
+> CONCEPT AND CODE by Iliya Garakh
+> Copied her for educational purpose only
 
 > @author Iliya Garakh
 
@@ -10,4 +10,4 @@ A wonderful 404 page designed by Iliya Garakh, is copied here for educational pu
 
 > You can learn and share this code with this notice and disclaimer intact
 
-[Watch here](https://mayeenulislam.github.io/404-iliya/) | [See it live](https://passwork.me/oops)
+[<kbd>Watch here</kbd>](https://mayeenulislam.github.io/404-iliya/) [<kbd>See it live</kbd>](https://passwork.me/oops)
